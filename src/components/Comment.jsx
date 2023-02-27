@@ -10,7 +10,7 @@ export function Comment({content, onDeleteComment}) {
     onDeleteComment(content);
   }
 
-  function handleLikeComment(params) {
+  function handleLikeComment() {
     setLikeCount(likeCount + 1)
   }
 
